@@ -1,0 +1,275 @@
+/*Обнуление*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Montserrat";
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+/*--------------------*/
+
+.container {
+    width: 943.61px;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+}
+
+.container-1 {
+    width: 943.61px;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+}
+
+.bg {
+    background-color: #F6F6F6;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 33px 0;
+    border-bottom: 2px solid #828282;
+}
+
+.nav-item {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.nav-link {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    animation-duration: 1s ease-on;
+    cursor: pointer;
+}
+
+.block-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #070707;
+    padding: 39.69px 0;
+}
+
+.block-menu span {
+    font-size: 47.3392px;
+    line-height: 59px;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    font-weight: 600;
+}
+
+.section-subtitle-1 {
+    width: 486px;
+    /* height: 130px; */
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding: 17.69px 0 0 0;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    width: 486px;
+    /* height: 130px; */
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding: 17.69px 0 60px 0;
+    margin: 0 auto;
+}
+
+.section-blok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-icon {
+    width: 89.07px;
+    height: 88.41px;
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding: 20px 0;
+}
+
+.sec-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 47px 0 0 0;
+}
+
+.block-img {
+    box-shadow: 9px 16px 8px -5px rgba(0, 0, 0, 0.2);
+}
+
+.block-link {
+    padding: 44.88px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.section-btn {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000;
+    width: 180.5px;
+    height: 42px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section-btn:hover {
+    color: #000000;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 80px 0 45px 0;
+    width: 265px;
+}
+
+.container-2 {
+    width: 943.61px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+.address {
+    text-align: center;
+}
